@@ -16,73 +16,73 @@
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
         android:gravity="center_horizontal"
         android:layout_marginBottom="32dp"
-        android:textColor="@color/indigo"
         android:id="@+id/textView" />
 
     <Button
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        style="@style/Widget.Button.Custom"
         android:text="@string/app_first"
-        android:id="@+id/button1"
+        android:id="@+id/btnSpotify"
         android:layout_margin="8dp"
-        android:background="@color/indigo"
-        android:textColor="@color/yellow"
         android:layout_below="@id/textView"
+        android:onClick="ShowToast"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        style="@style/Widget.Button.Custom"
         android:text="@string/app_second"
-        android:id="@+id/button2"
+        android:id="@+id/btnScores"
         android:layout_margin="8dp"
-        android:background="@color/indigo"
-        android:textColor="@color/yellow"
-        android:layout_below="@id/button1"
+        android:layout_below="@id/btnSpotify"
+        android:onClick="ShowToast"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        style="@style/Widget.Button.Custom"
         android:text="@string/app_third"
-        android:id="@+id/button3"
+        android:id="@+id/btnLibrary"
         android:layout_margin="8dp"
-        android:background="@color/indigo"
-        android:textColor="@color/yellow"
-        android:layout_below="@id/button2"
+        android:layout_below="@id/btnScores"
+        android:onClick="ShowToast"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        style="@style/Widget.Button.Custom"
         android:text="@string/app_forth"
-        android:id="@+id/button4"
+        android:id="@+id/btnBigger"
         android:layout_margin="8dp"
-        android:background="@color/indigo"
-        android:textColor="@color/yellow"
-        android:layout_below="@id/button3"
+        android:layout_below="@id/btnLibrary"
+        android:onClick="ShowToast"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        style="@style/Widget.Button.Custom"
         android:text="@string/app_fifth"
-        android:id="@+id/button5"
+        android:id="@+id/btnReader"
         android:layout_margin="8dp"
-        android:background="@color/indigo"
-        android:textColor="@color/yellow"
-        android:layout_below="@id/button4"
+        android:layout_below="@id/btnBigger"
+        android:onClick="ShowToast"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        style="@style/Widget.Button.Custom"
         android:text="@string/app_capstone"
-        android:id="@+id/button6"
+        android:id="@+id/btnCapstone"
         android:layout_margin="8dp"
         android:background="@color/red"
-        android:textColor="@color/yellow"
-        android:layout_below="@id/button5"
+        android:layout_below="@id/btnReader"
+        android:onClick="ShowToast"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
